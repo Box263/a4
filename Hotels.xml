@@ -6,77 +6,77 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearstAirport="PHX">
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number><Street>E 7th St</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
     </Address>
   </Hotel>
   <Hotel id="h2" Rating="4.5">
     <Name>Hyatt Place Tempe / Phoenix Airport</Name>
     <Phone>480-804-9544</Phone>
-    <Address NearstAirport="PHX">
-      <Number>1413</Number><Street>W 10th Pl</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
+    <Address NearestAirport="PHX">
+      <Number>1413</Number><Street>W Rio Salado Pkwy</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel id="h3" Rating="4.4">
-    <Name>Graduate Tempe</Name>
-    <Phone>480-967-9431</Phone>
-    <Address NearstAirport="PHX">
-      <Number>225</Number><Street>E Apache Blvd</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
-    </Address>
-  </Hotel>
-  <Hotel id="h4" Rating="4.3">
-    <Name>AC Hotel by Marriott Phoenix Tempe/Downtown</Name>
-    <Phone>480-642-6140</Phone>
-    <Address NearstAirport="PHX">
-      <Number>100</Number><Street>E Rio Salado Pkwy</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
-    </Address>
-  </Hotel>
-  <Hotel id="h5" Rating="4.1">
+  <Hotel id="h3" Rating="4.3">
     <Name>Tempe Mission Palms</Name>
     <Phone>480-894-1400</Phone>
-    <Address NearstAirport="PHX">
+    <Address NearestAirport="PHX">
       <Number>60</Number><Street>E 5th St</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel id="h6" Rating="4.0">
-    <Name>MOXY Phoenix Tempe/ASU Area</Name>
-    <Phone>480-968-3451</Phone>
-    <Address NearstAirport="PHX">
-      <Number>1333</Number><Street>S Rural Rd</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
-    </Address>
-  </Hotel>
-  <Hotel id="h7" Rating="4.2">
+  <Hotel id="h4" Rating="4.1">
     <Name>Courtyard by Marriott Tempe Downtown</Name>
     <Phone>480-966-2800</Phone>
-    <Address NearstAirport="PHX">
+    <Address NearestAirport="PHX">
       <Number>601</Number><Street>S Ash Ave</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel id="h8" Rating="4.3">
-    <Name>Hyatt House Tempe / Phoenix University</Name>
-    <Phone>480-207-1577</Phone>
-    <Address NearstAirport="PHX">
-      <Number>601</Number><Street>E 6th St</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
+  <Hotel id="h5" Rating="4.0">
+    <Name>AC Hotel Phoenix Tempe/Downtown</Name>
+    <Phone>480-642-6140</Phone>
+    <Address NearestAirport="PHX">
+      <Number>100</Number><Street>E Rio Salado Pkwy</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel id="h9" Rating="4.0">
-    <Name>DoubleTree by Hilton Hotel Phoenix Tempe</Name>
-    <Phone>480-967-1441</Phone>
-    <Address NearstAirport="PHX">
-      <Number>2100</Number><Street>S Priest Dr</Street><City>Tempe</City><State>AZ</State><Zip>85282</Zip>
+  <Hotel id="h6" Rating="4.0">
+    <Name>Embassy Suites by Hilton Phoenix Tempe</Name>
+    <Phone>480-897-7444</Phone>
+    <Address NearestAirport="PHX">
+      <Number>4400</Number><Street>S Rural Rd</Street><City>Tempe</City><State>AZ</State><Zip>85282</Zip>
+    </Address>
+  </Hotel>
+  <Hotel id="h7" Rating="4.4">
+    <Name>Graduate Tempe</Name>
+    <Phone>480-967-9431</Phone>
+    <Address NearestAirport="PHX">
+      <Number>225</Number><Street>E Apache Blvd</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel id="h8" Rating="4.1">
+    <Name>Moxy Phoenix Tempe/ASU Area</Name>
+    <Phone>480-968-3451</Phone>
+    <Address NearestAirport="PHX">
+      <Number>1333</Number><Street>S Rural Rd</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel id="h9" Rating="4.2">
+    <Name>Hilton Garden Inn Phoenix/Tempe ASU Area</Name>
+    <Phone>480-804-9700</Phone>
+    <Address NearestAirport="PHX">
+      <Number>7290</Number><Street>S Price Rd</Street><City>Tempe</City><State>AZ</State><Zip>85283</Zip>
     </Address>
   </Hotel>
   <Hotel id="h10" Rating="4.1">
     <Name>Hampton Inn &amp; Suites Phoenix Tempe</Name>
     <Phone>480-410-6400</Phone>
-    <Address NearstAirport="PHX">
+    <Address NearestAirport="PHX">
       <Number>1415</Number><Street>W Baseline Rd</Street><City>Tempe</City><State>AZ</State><Zip>85283</Zip>
     </Address>
   </Hotel>
   <Hotel id="h11" Rating="4.2">
     <Name>Holiday Inn Express &amp; Suites Tempe</Name>
     <Phone>480-831-9800</Phone>
-    <Address NearstAirport="PHX">
+    <Address NearestAirport="PHX">
       <Number>1520</Number><Street>W Baseline Rd</Street><City>Tempe</City><State>AZ</State><Zip>85283</Zip>
     </Address>
   </Hotel>
