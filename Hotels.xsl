@@ -20,9 +20,13 @@
                 </xsl:for-each>
               </td>
               <td>
-                <xsl:value-of select="Address/Number"/> <xsl:value-of select="Address/Street"/>, <xsl:value-of select="Address/City"/>, <xsl:value-of select="Address/State"/> <xsl:value-of select="Address/Zip"/>
+                <xsl:value-of select="Address/Number"/> <xsl:text> </xsl:text>
+                <xsl:value-of select="Address/Street"/>, <xsl:text> </xsl:text>
+                <xsl:value-of select="Address/City"/>, <xsl:text> </xsl:text>
+                <xsl:value-of select="Address/State"/> <xsl:text> </xsl:text>
+                <xsl:value-of select="Address/Zip"/>
               </td>
-              <td><xsl:value-of select="Address/@NearestAirport"/></td>
+              <td><xsl:value-of select="Address/@NearstAirport"/></td>
             </tr>
           </xsl:for-each>
         </table>
