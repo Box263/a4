@@ -23,7 +23,6 @@
                     <xs:element name="Zip" type="ZipType"/>
                   </xs:sequence>
                   <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
-                  <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
