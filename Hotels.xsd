@@ -54,6 +54,12 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
+
+    <!-- Ensure Hotel/@id is unique -->
+    <xs:key name="uniqueHotelId">
+      <xs:selector xpath="Hotel"/>
+      <xs:field xpath="@id"/>
+    </xs:key>
   </xs:element>
 
 </xs:schema>
