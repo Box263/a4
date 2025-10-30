@@ -1,31 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-  <xs:simpleType name="StateType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[A-Z]{2}"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <xs:simpleType name="ZipType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="\d{5}"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <xs:simpleType name="PhoneType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="\d{3}-\d{3}-\d{4}"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <xs:simpleType name="RatingType">
-    <xs:restriction base="xs:decimal">
-      <xs:minInclusive value="0"/>
-      <xs:maxInclusive value="5"/>
-      <xs:fractionDigits value="1"/>
-    </xs:restriction>
-  </xs:simpleType>
+  <xs:simpleType name="StateType"><xs:restriction base="xs:string"><xs:pattern value="[A-Z]{2}"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="ZipType"><xs:restriction base="xs:string"><xs:pattern value="\d{5}"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="PhoneType"><xs:restriction base="xs:string"><xs:pattern value="\d{3}-\d{3}-\d{4}"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="RatingType"><xs:restriction base="xs:decimal"><xs:minInclusive value="0"/><xs:maxInclusive value="5"/><xs:fractionDigits value="1"/></xs:restriction></xs:simpleType>
 
   <xs:element name="Hotels">
     <xs:complexType>
@@ -44,7 +22,8 @@
                     <xs:element name="State" type="StateType"/>
                     <xs:element name="Zip" type="ZipType"/>
                   </xs:sequence>
-                  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+                  <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
+                  <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
@@ -54,12 +33,6 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-
-    <!-- Ensure Hotel/@id is unique -->
-    <xs:key name="uniqueHotelId">
-      <xs:selector xpath="Hotel"/>
-      <xs:field xpath="@id"/>
-    </xs:key>
+    <xs:key name="uniqueHotelId"><xs:selector xpath="Hotel"/><xs:field xpath="@id"/></xs:key>
   </xs:element>
-
 </xs:schema>
