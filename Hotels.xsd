@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="https://box263.github.io/a4"
+           targetNamespace="https://box263.github.io/a4"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+
   <xs:simpleType name="StateType"><xs:restriction base="xs:string"><xs:pattern value="[A-Z]{2}"/></xs:restriction></xs:simpleType>
   <xs:simpleType name="ZipType"><xs:restriction base="xs:string"><xs:pattern value="\d{5}"/></xs:restriction></xs:simpleType>
   <xs:simpleType name="PhoneType"><xs:restriction base="xs:string"><xs:pattern value="\d{3}-\d{3}-\d{4}"/></xs:restriction></xs:simpleType>
@@ -32,6 +37,7 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
+
     <xs:key name="uniqueHotelId"><xs:selector xpath="Hotel"/><xs:field xpath="@id"/></xs:key>
   </xs:element>
 </xs:schema>
